@@ -1,0 +1,30 @@
+{
+    "name": "iluvium/testing",
+    "description": "Iluvium Framework's testing module.$",
+    "type": "library",
+    "require": {
+        "pestphp/pest": "^3.7"
+    },
+    "require-dev": {
+        "pestphp/pest": "^3.7",
+        "laravel/pint": "^1.18",
+        "phpstan/phpstan": "^2.0"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Iluvium\\Testing\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Pierre \"Golluméo\" Mauriello",
+            "email": "p.mauriello54@gmail.com"
+        }
+    ],
+    "config": {
+        "allow-plugins": {
+            "pestphp/pest-plugin": true
+        }
+    }
+}
