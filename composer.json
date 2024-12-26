@@ -1,6 +1,6 @@
 {
     "name": "iluvium/testing",
-    "description": "Iluvium Framework's testing module.$",
+    "description": "Iluvium Framework's testing module.",
     "type": "library",
     "require": {
         "pestphp/pest": "^3.7"
