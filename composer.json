@@ -2,6 +2,9 @@
     "name": "iluvium/testing",
     "description": "Iluvium Framework's testing module.",
     "type": "library",
+    "scripts": {
+        "analyse": "phpstan analyse -c phpstan.neon"
+    },
     "require": {
         "pestphp/pest": "^3.7"
     },
