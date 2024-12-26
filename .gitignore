@@ -1,1 +1,3 @@
-.Test
+/vendor/
+.idea/
+composer.lock
